@@ -1,0 +1,25 @@
+{
+  "name": "cloudflare-backup",
+  "version": "1.0.0",
+  "description": "Simple tool for backing up your CloudFlare hosted DNS records",
+  "main": "bin/cf-backup.js",
+  "scripts": {},
+  "bin": {
+    "cf-backup": "bin/cf-backup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rmg/cloudflare-backup.git"
+  },
+  "keywords": [
+    "cloudflare",
+    "bind",
+    "dns"
+  ],
+  "author": "Ryan Graham <r.m.graham@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rmg/cloudflare-backup/issues"
+  },
+  "homepage": "https://github.com/rmg/cloudflare-backup"
+}
